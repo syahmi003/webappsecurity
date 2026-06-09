@@ -22,7 +22,7 @@
 
 ## c. Introduction
 
-The Hospital Kuala Lumpur Clinic Management System is an existing web-based application from previous course (Web Application Development INFO 3305) developed using the **Laravel PHP framework**. It was originally built for group project that digitises and streamline the day-to-day operations of a hospital. The system consists of six core modules:
+The Hospital Kuala Lumpur Clinic Management System is an existing web-based application from previous course (Web Application Development INFO 3305) developed using the **Laravel PHP framework**. The web application objective to help the administrator of the hospital to manage the patients,doctors, medical records, pharmacy, and billing invoices . The website was originally built for group project that digitises and streamline the day-to-day operations of a hospital. The system consists of six core modules:
 
 - **Patient Management** — register, update, and search patient records
 - **Doctor Management** — manage doctor profiles and schedules
@@ -192,7 +192,7 @@ foreach ($items as $item) {
 | Type enforcement | `integer`, `numeric`, `date`, `email` | Ensures correct data type |
 | Length limits | `max:255`, `min:8` | Prevents overflow attacks |
 | Whitelist values | `in:Male,Female` | Only accepts known values |
-| Regex pattern | `regex:/^[\pL\s\-]+$/u` | Allows only letters/spaces/hyphens |
+| Regular Expression(Regex) pattern | `regex:/^[\pL\s\-]+$/u` | Allows only letters/spaces/hyphens |
 | Relational date | `after:manufacture_date`, `before:today` | Logical date checking |
 | Uniqueness | `unique:patients,email` | Prevents duplicate records |
 | JSON integrity | `json` rule + per-item validator | Validates structured input |
