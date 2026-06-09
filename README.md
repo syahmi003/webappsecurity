@@ -201,7 +201,7 @@ foreach ($items as $item) {
 
 ### ii. Authentication
 
-Authentication verifies the identity of users before allowing access to the system. Several best practices were implemented to harden the authentication process.
+Authentication verifies the identity of users before allowing access to the system, thus several best practices were implemented to harden the authentication process.
 
 #### Methods Implemented
 
